@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Harmony Bear and Barrel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Harmony Bear and Barrel</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="business.html">Business Model</a></li>
+                <li><a href="contacts.html" class="active">Contacts</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get In Touch</h2>
+            <p style="text-align: center; margin-bottom: 30px;">Have questions about our products or business? Send us a message.</p>
+            
+            <div class="contact-container" style="max-width: 600px; margin: 0 auto;">
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Inquiry Type">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Visit us at our headquarters or reach out anytime.</p>
+            <div style="text-align: center;">
+                <p><strong>Headquarters:</strong> 123 Harmony Lane, Beeville, CA 90210</p>
+                <p><strong>Phone:</strong> (555) 123-4567</p>
+                <p><strong>Email:</strong> info@harmonybearandbarrel.com</p>
+                <br>
+                <!-- Placeholder for Map Image -->
+                <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800" alt="Map Location" style="width: 100%; max-width: 600px; border-radius: 8px;">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Harmony Bear and Barrel</h3>
+                <p>Crafting nature's finest products with love and care.</p>
+            </div>
+          
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>123 Harmony Lane, Beeville, CA 90210</p>
+                <p>(555) 123-4567</p>
+                <p>info@harmonybearandbarrel.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harmony Bear and Barrel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>S

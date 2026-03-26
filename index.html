@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony Bear and Barrel - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Harmony Bear and Barrel</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="business.html">Business</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Harmony Bear and Barrel</h2>
+                <p>Crafting Premium Honey & Artisan Barrel Products Since 2020</p>
+                <a href="products.html" class="cta-button">Explore Our Products</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Us</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>100% Natural</h3>
+                    <p>All our products are made from natural, organic ingredients sourced locally.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Premium Quality</h3>
+                    <p>Award-winning products crafted with care and expertise by our master artisans.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Fast Delivery</h3>
+                    <p>Quick and reliable shipping to your doorstep anywhere in the country.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Eco-Friendly</h3>
+                    <p>Sustainable practices and recyclable packaging for a better tomorrow.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section">
+            <h2>Our Story</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Watch how we craft our signature products from start to finish.</p>
+            <div class="video-container">
+               <video src="video.mp4" type= " video/mp4">
+                   
+               </video>
+                
+            </div>
+        </section>
+
+        <section class="products-preview">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400" alt="Wildflower Honey">
+                    <h3>Wildflower Honey</h3>
+                    <p class="price">$12.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1516559828984-fb3b99548b21?w=400" alt="Oak Barrel">
+                    <h3>Artisan Oak Barrel</h3>
+                    <p class="price">$89.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1471943311424-646960669fbc?w=400" alt="Honey Comb">
+                    <h3>Fresh Honey Comb</h3>
+                    <p class="price">$18.99</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="products.html" class="cta-button">View All Products</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Harmony Bear and Barrel</h3>
+                <p>Crafting nature's finest products with love and care.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>123 Harmony Lane, Beeville, CA 90210</p>
+                <p>(555) 123-4567</p>
+                <p>info@harmonybearandbarrel.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harmony Bear and Barrel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

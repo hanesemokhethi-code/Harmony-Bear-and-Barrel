@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Harmony Bear and Barrel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Harmony Bear and Barrel</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="business.html">Business</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About The Startup</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h3>Our Story</h3>
+                    <p>Harmony Bear and Barrel was founded in 2020 with a simple mission: to bring the purity of nature into every home. Starting as a small family apiary, we have grown into a full-scale artisan production house.</p>
+                    <br>
+                    <h3>Our Mission</h3>
+                    <p>
+                        At Harmony Bear, we believe that exceptional spirits are born from the perfect balance of tradition, innovation, and responsibility. Our mission is to craft small‑batch whiskey and liqueurs that elevate the drinking experience—from the careful selection of locally sourced grains to the patient aging in charred American oak barrels. We are committed to sustainability at every step: partnering with regenerative farms, using recycled glass for our bottles, and minimizing waste in our distillery. Beyond the liquid, we strive to build a community that values mindful enjoyment, genuine connection, and the artistry behind every pour. By honoring the heritage of distilling while embracing modern craftsmanship, Harmony Bear aims to become a brand that people trust, savor, and share with the ones they care about most.</p>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600" alt="Our Workshop" style="width: 100%; border-radius: 8px;">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Meet Our Team</h2>
+            <p style="text-align: center; margin-bottom: 20px;">The dedicated staff behind our success.</p>
+            <div class="staff-grid">
+                <div class="staff-card">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400" alt="CEO">
+                    <h3>MOKHETHI HANESE</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="staff-card">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400" alt="Head of Production">
+                    <h3>THATO MAKHELE</h3>
+                    <p>Head of Production</p>
+                </div>
+                <div class="staff-card">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400" alt="Marketing Manager">
+                    <h3>THUTO TWALA</h3>
+                    <p>Marketing Manager</p>
+                </div>
+                <div class="staff-card">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400" alt="Quality Control">
+                    <h3>Emily Wax</h3>
+                    <p>Quality Control</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Harmony Bear and Barrel</h3>
+                <p>Crafting nature's finest products with love and care.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>123 Harmony Lane, Beeville, CA 90210</p>
+                <p>(555) 123-4567</p>
+                <p>info@harmonybearandbarrel.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harmony Bear and Barrel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

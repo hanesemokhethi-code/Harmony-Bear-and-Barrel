@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Harmony Bear and Barrel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Harmony Bear and Barrel</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="business.html">Business</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Product Catalog</h2>
+            <p style="text-align: center; margin-bottom: 30px;">Explore our range of premium honey and artisan barrel products.</p>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="harmony.jpg" alt="my images" width="300" height="200">
+                    <h3>Wildflower Honey</h3>
+                    <p>Raw, unfiltered honey sourced from wildflowers.</p>
+                    <p class="price">$12.99</p>
+                    <button class="cta-button">Add to Cart</button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="indeamart.jpg" alt="my images" width="300" height="200">
+                    <h3>Artisan Oak Barrel</h3>
+                    <p>Handcrafted oak barrel for aging spirits or decoration.</p>
+                    <p class="price">$89.99</p>
+                    <button class="cta-button">Add to Cart</button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="wine bottles.jpg" alt="my images" width="300" height="200">
+                    <h3>Fresh Honey Comb</h3>
+                    <p>Natural honeycomb straight from the hive.</p>
+                    <p class="price">$18.99</p>
+                    <button class="cta-button">Add to Cart</button>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="wine fridge.jpg" alt="my images" width="300" height="200">
+                    <h3>Beeswax Candles</h3>
+                    <p>Set of 3 natural beeswax candles, long burning.</p>
+                    <p class="price">$24.99</p>
+                    <button class="cta-button">Add to Cart</button>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="luxury.jpg" alt="my images" width="300" height="200">
+                    <h3>Premium Gift Set</h3>
+                    <p>Curated box including honey, comb, and wax.</p>
+                    <p class="price">$49.99</p>
+                    <button class="cta-button">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Harmony Bear and Barrel</h3>
+                <p>Crafting nature's finest products with love and care.</p>
+            </div>
+          
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>123 Harmony Lane, Beeville, CA 90210</p>
+                <p>(555) 123-4567</p>
+                <p>info@harmonybearandbarrel.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harmony Bear and Barrel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
